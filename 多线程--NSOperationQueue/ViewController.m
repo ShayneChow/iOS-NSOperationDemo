@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZXOperation.h"
 
 @interface ViewController ()
 
@@ -14,14 +15,17 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    // 1.创建队列
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    // 2.创建任务
+    // 自定义任务的好处: 提高代码的复用性
+    ZXOperation *op1 = [[ZXOperation alloc] init];
+    ZXOperation *op2 = [[ZXOperation alloc] init];
+    
+    // 3.添加任务到队列
+    [queue addOperation:op1];
+    [queue addOperation:op2];
 }
 
 @end

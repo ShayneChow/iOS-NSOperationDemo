@@ -22,6 +22,7 @@
 		F0E2A1A31B78C91600701482 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E2A1A21B78C91600701482 /* Images.xcassets */; };
 		F0E2A1A61B78C91600701482 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E2A1A41B78C91600701482 /* LaunchScreen.xib */; };
 		F0E2A1B21B78C91600701482 /* _____NSOperationQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2A1B11B78C91600701482 /* _____NSOperationQueueTests.m */; };
+		F0E2A1BB1B78CA9B00701482 /* ZXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2A1BA1B78CA9B00701482 /* ZXOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		F0E2A1AB1B78C91600701482 /* 多线程--NSOperationQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多线程--NSOperationQueueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E2A1B01B78C91600701482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0E2A1B11B78C91600701482 /* _____NSOperationQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____NSOperationQueueTests.m"; sourceTree = "<group>"; };
+		F0E2A1B91B78CA9B00701482 /* ZXOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXOperation.h; sourceTree = "<group>"; };
+		F0E2A1BA1B78CA9B00701482 /* ZXOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,8 @@
 				F0E2A19A1B78C91600701482 /* AppDelegate.m */,
 				F0E2A19C1B78C91600701482 /* ViewController.h */,
 				F0E2A19D1B78C91600701482 /* ViewController.m */,
+				F0E2A1B91B78CA9B00701482 /* ZXOperation.h */,
+				F0E2A1BA1B78CA9B00701482 /* ZXOperation.m */,
 				F0E2A19F1B78C91600701482 /* Main.storyboard */,
 				F0E2A1A21B78C91600701482 /* Images.xcassets */,
 				F0E2A1A41B78C91600701482 /* LaunchScreen.xib */,
@@ -446,6 +451,7 @@
 				F0E2A19E1B78C91600701482 /* ViewController.m in Sources */,
 				F0E2A19B1B78C91600701482 /* AppDelegate.m in Sources */,
 				F0E2A1981B78C91600701482 /* main.m in Sources */,
+				F0E2A1BB1B78CA9B00701482 /* ZXOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>多线程--NSOperation线程间通信.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>多线程-NSOperation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,16 @@
 			<true/>
 		</dict>
 		<key>F0E2A1AA1B78C91600701482</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0E2A1BF1B79230600701482</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0E2A1D71B79230700701482</key>
 		<dict>
 			<key>primary</key>
 			<true/>

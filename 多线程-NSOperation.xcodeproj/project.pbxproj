@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		886B17813956067BAF4141EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9C2CDD8C95C4A0EE6F32B4 /* libPods.a */; };
+		F07FDFCD1B7B5E3800D3D841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDFCC1B7B5E3800D3D841 /* main.m */; };
+		F07FDFD01B7B5E3800D3D841 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDFCF1B7B5E3800D3D841 /* AppDelegate.m */; };
+		F07FDFD31B7B5E3800D3D841 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDFD21B7B5E3800D3D841 /* ViewController.m */; };
+		F07FDFD61B7B5E3800D3D841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07FDFD41B7B5E3800D3D841 /* Main.storyboard */; };
+		F07FDFD81B7B5E3800D3D841 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07FDFD71B7B5E3800D3D841 /* Images.xcassets */; };
+		F07FDFDB1B7B5E3800D3D841 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07FDFD91B7B5E3800D3D841 /* LaunchScreen.xib */; };
+		F07FDFE71B7B5E3800D3D841 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDFE61B7B5E3800D3D841 /* __________Tests.m */; };
 		F0E2A16C1B74546400701482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2A16B1B74546400701482 /* main.m */; };
 		F0E2A16F1B74546400701482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2A16E1B74546400701482 /* AppDelegate.m */; };
 		F0E2A1721B74546400701482 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2A1711B74546400701482 /* ViewController.m */; };
@@ -33,6 +40,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F07FDFE11B7B5E3800D3D841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E2A15E1B74546400701482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07FDFC71B7B5E3800D3D841;
+			remoteInfo = "多线程--多图片下载";
+		};
 		F0E2A1801B74546400701482 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F0E2A15E1B74546400701482 /* Project object */;
@@ -60,6 +74,19 @@
 		49D0AE0F93937EAAEA7E1787 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		79BAB41B86681213C685424D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8F9C2CDD8C95C4A0EE6F32B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07FDFC81B7B5E3800D3D841 /* 多线程--多图片下载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程--多图片下载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07FDFCB1B7B5E3800D3D841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07FDFCC1B7B5E3800D3D841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F07FDFCE1B7B5E3800D3D841 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F07FDFCF1B7B5E3800D3D841 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F07FDFD11B7B5E3800D3D841 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F07FDFD21B7B5E3800D3D841 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F07FDFD51B7B5E3800D3D841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F07FDFD71B7B5E3800D3D841 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F07FDFDA1B7B5E3800D3D841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F07FDFE01B7B5E3800D3D841 /* 多线程--多图片下载Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多线程--多图片下载Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07FDFE51B7B5E3800D3D841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07FDFE61B7B5E3800D3D841 /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________Tests.m"; sourceTree = "<group>"; };
 		F0E2A1661B74546400701482 /* 多线程-NSOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程-NSOperation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E2A16A1B74546400701482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0E2A16B1B74546400701482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +131,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F07FDFC51B7B5E3800D3D841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07FDFDD1B7B5E3800D3D841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0E2A1631B74546400701482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +208,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F07FDFC91B7B5E3800D3D841 /* 多线程--多图片下载 */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDFCE1B7B5E3800D3D841 /* AppDelegate.h */,
+				F07FDFCF1B7B5E3800D3D841 /* AppDelegate.m */,
+				F07FDFD11B7B5E3800D3D841 /* ViewController.h */,
+				F07FDFD21B7B5E3800D3D841 /* ViewController.m */,
+				F07FDFD41B7B5E3800D3D841 /* Main.storyboard */,
+				F07FDFD71B7B5E3800D3D841 /* Images.xcassets */,
+				F07FDFD91B7B5E3800D3D841 /* LaunchScreen.xib */,
+				F07FDFCA1B7B5E3800D3D841 /* Supporting Files */,
+			);
+			path = "多线程--多图片下载";
+			sourceTree = "<group>";
+		};
+		F07FDFCA1B7B5E3800D3D841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDFCB1B7B5E3800D3D841 /* Info.plist */,
+				F07FDFCC1B7B5E3800D3D841 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F07FDFE31B7B5E3800D3D841 /* 多线程--多图片下载Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDFE61B7B5E3800D3D841 /* __________Tests.m */,
+				F07FDFE41B7B5E3800D3D841 /* Supporting Files */,
+			);
+			path = "多线程--多图片下载Tests";
+			sourceTree = "<group>";
+		};
+		F07FDFE41B7B5E3800D3D841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDFE51B7B5E3800D3D841 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F0E2A15D1B74546400701482 = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +258,8 @@
 				F0E2A1AE1B78C91600701482 /* 多线程--NSOperationQueueTests */,
 				F0E2A1C11B79230600701482 /* 多线程--NSOperation线程间通信 */,
 				F0E2A1DB1B79230700701482 /* 多线程--NSOperation线程间通信Tests */,
+				F07FDFC91B7B5E3800D3D841 /* 多线程--多图片下载 */,
+				F07FDFE31B7B5E3800D3D841 /* 多线程--多图片下载Tests */,
 				F0E2A1671B74546400701482 /* Products */,
 				6E71FB8A8E571FC65E143385 /* Pods */,
 				3CF7914EBC72898279D61E1B /* Frameworks */,
@@ -191,6 +275,8 @@
 				F0E2A1AB1B78C91600701482 /* 多线程--NSOperationQueueTests.xctest */,
 				F0E2A1C01B79230600701482 /* 多线程--NSOperation线程间通信.app */,
 				F0E2A1D81B79230700701482 /* 多线程--NSOperation线程间通信Tests.xctest */,
+				F07FDFC81B7B5E3800D3D841 /* 多线程--多图片下载.app */,
+				F07FDFE01B7B5E3800D3D841 /* 多线程--多图片下载Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -323,6 +409,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F07FDFC71B7B5E3800D3D841 /* 多线程--多图片下载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07FDFEC1B7B5E3800D3D841 /* Build configuration list for PBXNativeTarget "多线程--多图片下载" */;
+			buildPhases = (
+				F07FDFC41B7B5E3800D3D841 /* Sources */,
+				F07FDFC51B7B5E3800D3D841 /* Frameworks */,
+				F07FDFC61B7B5E3800D3D841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多线程--多图片下载";
+			productName = "多线程--多图片下载";
+			productReference = F07FDFC81B7B5E3800D3D841 /* 多线程--多图片下载.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07FDFDF1B7B5E3800D3D841 /* 多线程--多图片下载Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07FDFED1B7B5E3800D3D841 /* Build configuration list for PBXNativeTarget "多线程--多图片下载Tests" */;
+			buildPhases = (
+				F07FDFDC1B7B5E3800D3D841 /* Sources */,
+				F07FDFDD1B7B5E3800D3D841 /* Frameworks */,
+				F07FDFDE1B7B5E3800D3D841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07FDFE21B7B5E3800D3D841 /* PBXTargetDependency */,
+			);
+			name = "多线程--多图片下载Tests";
+			productName = "多线程--多图片下载Tests";
+			productReference = F07FDFE01B7B5E3800D3D841 /* 多线程--多图片下载Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F0E2A1651B74546400701482 /* 多线程-NSOperation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0E2A1891B74546400701482 /* Build configuration list for PBXNativeTarget "多线程-NSOperation" */;
@@ -439,6 +560,13 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "周想";
 				TargetAttributes = {
+					F07FDFC71B7B5E3800D3D841 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F07FDFDF1B7B5E3800D3D841 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F07FDFC71B7B5E3800D3D841;
+					};
 					F0E2A1651B74546400701482 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -481,11 +609,30 @@
 				F0E2A1AA1B78C91600701482 /* 多线程--NSOperationQueueTests */,
 				F0E2A1BF1B79230600701482 /* 多线程--NSOperation线程间通信 */,
 				F0E2A1D71B79230700701482 /* 多线程--NSOperation线程间通信Tests */,
+				F07FDFC71B7B5E3800D3D841 /* 多线程--多图片下载 */,
+				F07FDFDF1B7B5E3800D3D841 /* 多线程--多图片下载Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F07FDFC61B7B5E3800D3D841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07FDFD61B7B5E3800D3D841 /* Main.storyboard in Resources */,
+				F07FDFDB1B7B5E3800D3D841 /* LaunchScreen.xib in Resources */,
+				F07FDFD81B7B5E3800D3D841 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07FDFDE1B7B5E3800D3D841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0E2A1641B74546400701482 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -573,6 +720,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F07FDFC41B7B5E3800D3D841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07FDFD31B7B5E3800D3D841 /* ViewController.m in Sources */,
+				F07FDFD01B7B5E3800D3D841 /* AppDelegate.m in Sources */,
+				F07FDFCD1B7B5E3800D3D841 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07FDFDC1B7B5E3800D3D841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07FDFE71B7B5E3800D3D841 /* __________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0E2A1621B74546400701482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -631,6 +796,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F07FDFE21B7B5E3800D3D841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07FDFC71B7B5E3800D3D841 /* 多线程--多图片下载 */;
+			targetProxy = F07FDFE11B7B5E3800D3D841 /* PBXContainerItemProxy */;
+		};
 		F0E2A1811B74546400701482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F0E2A1651B74546400701482 /* 多线程-NSOperation */;
@@ -649,6 +819,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		F07FDFD41B7B5E3800D3D841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07FDFD51B7B5E3800D3D841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F07FDFD91B7B5E3800D3D841 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07FDFDA1B7B5E3800D3D841 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		F0E2A1731B74546400701482 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -700,6 +886,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F07FDFE81B7B5E3800D3D841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "多线程--多图片下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F07FDFE91B7B5E3800D3D841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多线程--多图片下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F07FDFEA1B7B5E3800D3D841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "多线程--多图片下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多线程--多图片下载.app/多线程--多图片下载";
+			};
+			name = Debug;
+		};
+		F07FDFEB1B7B5E3800D3D841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "多线程--多图片下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多线程--多图片下载.app/多线程--多图片下载";
+			};
+			name = Release;
+		};
 		F0E2A1871B74546400701482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -955,6 +1199,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F07FDFEC1B7B5E3800D3D841 /* Build configuration list for PBXNativeTarget "多线程--多图片下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07FDFE81B7B5E3800D3D841 /* Debug */,
+				F07FDFE91B7B5E3800D3D841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F07FDFED1B7B5E3800D3D841 /* Build configuration list for PBXNativeTarget "多线程--多图片下载Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07FDFEA1B7B5E3800D3D841 /* Debug */,
+				F07FDFEB1B7B5E3800D3D841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F0E2A1611B74546400701482 /* Build configuration list for PBXProject "多线程-NSOperation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -989,6 +1249,7 @@
 				F0E2A1B41B78C91600701482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0E2A1B81B78C91600701482 /* Build configuration list for PBXNativeTarget "多线程--NSOperationQueueTests" */ = {
 			isa = XCConfigurationList;
@@ -997,6 +1258,7 @@
 				F0E2A1B61B78C91600701482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0E2A1E01B79230700701482 /* Build configuration list for PBXNativeTarget "多线程--NSOperation线程间通信" */ = {
 			isa = XCConfigurationList;
@@ -1005,6 +1267,7 @@
 				F0E2A1E21B79230700701482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0E2A1E31B79230700701482 /* Build configuration list for PBXNativeTarget "多线程--NSOperation线程间通信Tests" */ = {
 			isa = XCConfigurationList;
@@ -1013,6 +1276,7 @@
 				F0E2A1E51B79230700701482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

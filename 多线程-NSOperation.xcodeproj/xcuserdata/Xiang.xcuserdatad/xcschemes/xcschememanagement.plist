@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>多线程--多图片下载.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>多线程-NSOperation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,6 +27,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>F07FDFC71B7B5E3800D3D841</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F07FDFDF1B7B5E3800D3D841</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F0E2A1651B74546400701482</key>
 		<dict>
 			<key>primary</key>

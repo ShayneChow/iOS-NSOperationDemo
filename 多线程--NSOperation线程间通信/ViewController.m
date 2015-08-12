@@ -27,7 +27,7 @@
     // 2.添加任务(操作)
     [queue addOperationWithBlock:^{
         // 2.1在子线程中下载图片
-        NSURL *url  = [NSURL URLWithString:@"http://pic.58pic.com/58pic/14/45/10/43t58PICAju_1024.jpg"];
+        NSURL *url  = [NSURL URLWithString:@"https://ruby-china-files.b0.upaiyun.com/photo/2014/04e78d8c5f92a2d6bf058ffe60deabfd.png"];
         NSData *data = [NSData dataWithContentsOfURL:url];
         UIImage *image = [UIImage imageWithData:data];
         

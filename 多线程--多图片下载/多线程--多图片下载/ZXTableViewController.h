@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZXTableViewController.h
 //  多线程--多图片下载
 //
 //  Created by Xiang on 15/8/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZXTableViewController : UITableViewController
 
 @end
-

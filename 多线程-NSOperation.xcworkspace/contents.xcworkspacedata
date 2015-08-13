@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:多线程-NSOperation.xcodeproj">
+      location = "group:&#x591a;&#x7ebf;&#x7a0b;--&#x591a;&#x56fe;&#x7247;&#x4e0b;&#x8f7d;/&#x591a;&#x7ebf;&#x7a0b;--&#x591a;&#x56fe;&#x7247;&#x4e0b;&#x8f7d;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x591a;&#x7ebf;&#x7a0b;-NSOperation.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

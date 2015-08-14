@@ -7,7 +7,4 @@
    <FileRef
       location = "group:&#x591a;&#x7ebf;&#x7a0b;-NSOperation.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
 </Workspace>

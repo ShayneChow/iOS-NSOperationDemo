@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SDWebImageDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>多线程--NSOperationQueue.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,16 @@
 			<true/>
 		</dict>
 		<key>F07FDFDF1B7B5E3800D3D841</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0A495E41B7DD15D0099A28D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0A495FC1B7DD15D0099A28D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

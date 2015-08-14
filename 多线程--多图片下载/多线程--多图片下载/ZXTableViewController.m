@@ -8,10 +8,13 @@
 
 #import "ZXTableViewController.h"
 #import "ZXApp.h"
+#import "NSString+ZX.h"
 
 @interface ZXTableViewController ()
 /** 需要展示的数据 */
 @property (nonatomic, strong) NSArray *apps;
+/** 图片缓存 */
+@property (nonatomic, strong) NSMutableDictionary *imageCaches;
 @end
 
 @implementation ZXTableViewController
@@ -31,9 +34,12 @@
     return _apps;
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
+
+- (NSMutableDictionary *)imageCaches {
+    if (!_imageCaches) {
+        _imageCaches = [NSMutableDictionary dictionary];
+    }
+    return _imageCaches;
 }
 
 #pragma mark - Table view data source
@@ -64,10 +70,49 @@
      1.图片在主线程中下载, 阻塞主线程
      2.重复下载, 浪费资源
      */
-    NSURL *url = [NSURL URLWithString:app.icon];
-    NSData *data = [NSData dataWithContentsOfURL:url];
-    UIImage *image = [UIImage imageWithData:data];
-    cell.imageView.image = image;
+    
+    // 1.从字典冲获取需要展示图片
+    UIImage *image =  self.imageCaches[app.icon];
+    if (image == nil) {
+        //        NSLog(@"下载图片");
+        
+        // 2.判断沙盒缓存中有没有
+        NSData *data = [NSData dataWithContentsOfFile:[app.icon cacheDir]];
+        if (data == nil) {
+            NSLog(@"下载图片");
+            // 需要下载
+            NSURL *url = [NSURL URLWithString:app.icon];
+            data = [NSData dataWithContentsOfURL:url];
+            UIImage *image = [UIImage imageWithData:data];
+            
+            // 缓存下载好的数据到内存中
+            self.imageCaches[app.icon] = image;
+            
+            // 缓存到沙盒
+            [data writeToFile:[app.icon cacheDir] atomically:YES];
+            
+            // 更新UI
+            cell.imageView.image = image;
+        }else
+        {
+            NSLog(@"从沙盒加载图片");
+            // 根据沙盒缓存创建图片
+            UIImage *image = [UIImage imageWithData:data];
+            
+            // 进行内存缓存
+            self.imageCaches[app.icon] = image;
+            
+            // 更新UI
+            cell.imageView.image = image;
+            
+        }
+        
+    }else
+    {
+        NSLog(@"使用内存缓存");
+        // 更新UI
+        cell.imageView.image = image;
+    }
     
     // 3.返回cell
     return cell;
